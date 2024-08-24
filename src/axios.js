@@ -8,5 +8,5 @@ if (localStorage.getItem('token')) {
 // localStorage.getItem("token") retrieves the token stored in the localStorage.
 // la kotayya la logout function requestek dakaynawa bo data useraka gar tokena rastakay pebw awa basha wa nabw asretawa
 export default axios.create({
-  baseURL: 'https://kebazaar.xyz/backend/api/v1'
+  baseURL: 'https://kebazaar.xyz/api/v1'
 })
